@@ -3,8 +3,9 @@
 language = "Python"
 version = 3
 pi = 3.14159
+is_valid = pi > 3
 
 print(f"Language: {language}")
-print(f"version: {version}")
+print(f"Version: {version}")
 print(f"Pi approx: {pi:.2f}")
-print(f"computation valid: True")
+print(f"Computation valid: {is_valid}")
