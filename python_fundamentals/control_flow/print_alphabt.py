@@ -2,7 +2,6 @@
 
 lettre = ""
 for i in range(97, 123):
-    if lettre != 'e' and lettre != 'q':
+    if i != ord('e') and i != ord('q'):
         lettre += chr(i)
 print(f"{lettre}")
-
