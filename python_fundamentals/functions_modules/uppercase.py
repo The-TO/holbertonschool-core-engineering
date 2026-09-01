@@ -11,4 +11,3 @@ def uppercase(str):
         else:
             result += char
     print("{}".format(result))
-            
