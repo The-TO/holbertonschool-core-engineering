@@ -40,6 +40,7 @@ class Square:
                 lines.append("")
             for i in range(self.size):
                 lines.append(" " * self.position[0] + "#" * self.size)
+            return "\n".join(lines)
 
     @property
     def position(self):
