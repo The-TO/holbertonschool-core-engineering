@@ -3,8 +3,7 @@
 
 
 class Square:
-    """Representation D'un Carre simple."""
-
+    """Representation d'un Carre simple."""
 
     def __init__(self, size):
         """initialise la taille du Carre."""
