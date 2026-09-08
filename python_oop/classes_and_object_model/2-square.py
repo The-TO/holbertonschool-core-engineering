@@ -5,7 +5,7 @@
 class Square:
     """Representation d'un Carre simple."""
 
-    def __init__(self, size):
+    def __init__(self, size=0):
         """Initialise la taille du Carre."""
         if type(size) is not int:
             raise TypeError("size must be an integer")
