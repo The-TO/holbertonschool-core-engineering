@@ -12,7 +12,7 @@ class Square:
 
     @property
     def size(self):
-        """Getter retourne la taille"""
+        """Getter retourne la taille."""
         return self.__size
 
     def area(self):
@@ -44,7 +44,7 @@ class Square:
 
     @property
     def position(self):
-        """getter retourne la position"""
+        """Getter retourne la position"""
         return self.__position
 
     @position.setter
