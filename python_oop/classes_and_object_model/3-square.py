@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module 2-Square size verif."""
+"""Module 3-Square size verif."""
 
 
 class Square:
