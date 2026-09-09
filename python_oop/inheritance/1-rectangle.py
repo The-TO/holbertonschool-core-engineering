@@ -16,13 +16,12 @@ class BaseGeometry:
             raise ValueError(f"{name} must be greater than 0")
 
 class Rectangle(BaseGeometry):
-    """Respresentation d'un Rectangle"""
+    """Initialise un Rectangle avec width et height, privés et validés."""
     def __init__(self, width, height):
         self.__width = width
         self.__height = height
-
-    def integer_validator(self, width, value):
-        return super().integer_validator(width, value)
+        self.integer_validator("width", width)
+        self.integer_validator("height", height)
 
     def area(self):
-        return super().area()
+        return self.__height * self.___width
