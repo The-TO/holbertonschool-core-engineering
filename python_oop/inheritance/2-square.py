@@ -4,8 +4,9 @@
 Creation of Square class from the Rectangle module
 """
 
-
 Rectangle = __import__('2-rectangle').Rectangle
+
+
 class Square(Rectangle):
     """Initialise un Carré avec size"""
     def __init__(self, size):
