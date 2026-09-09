@@ -14,3 +14,19 @@ class BaseGeometry:
             raise TypeError(f"{name} must be an integer")
         if value <= 0:
             raise ValueError(f"{name} must be greater than 0")
+
+class Rectangle(BaseGeometry):
+    """Respresentation d'un Rectangle"""
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+    def width(self):
+        return self.__width
+
+    def height(self):
+        return self.__height
+
+    def integer_validator(self, width, value):
+        return super().integer_validator(width, value)
+    
