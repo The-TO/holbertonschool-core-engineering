@@ -18,14 +18,14 @@ class BaseGeometry:
 class Rectangle(BaseGeometry):
     """Respresentation d'un Rectangle"""
     def __init__(self, width, height):
-        self.width = width
-        self.height = height
+        self.__width = width
+        self.__height = height
 
     def width(self):
-        return self.width
+        return self.__width
 
     def height(self):
-        return self.height
+        return self.__height
 
     def integer_validator(self, width, value):
         return super().integer_validator(width, value)
