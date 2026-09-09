@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """ Module BaseGeometry"""
 
-
 BaseGeometry = __import__('base_geometry').BaseGeometry
+
 
 class Rectangle(BaseGeometry):
     """Initialise un Rectangle avec width et height, privés et validés."""
