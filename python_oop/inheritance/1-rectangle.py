@@ -21,12 +21,6 @@ class Rectangle(BaseGeometry):
         self.__width = width
         self.__height = height
 
-    def width(self):
-        return self.__width
-
-    def height(self):
-        return self.__height
-
     def integer_validator(self, width, value):
         return super().integer_validator(width, value)
 
