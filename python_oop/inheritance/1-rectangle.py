@@ -22,10 +22,10 @@ class Rectangle(BaseGeometry):
         self.height = height
 
     def width(self):
-        return self.__width
+        return self.width
 
     def height(self):
-        return self.__height
+        return self.height
 
     def integer_validator(self, width, value):
         return super().integer_validator(width, value)
