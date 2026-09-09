@@ -18,4 +18,4 @@ class Square(Rectangle):
 
     def __str__(self):
         """Retourne une representation textuelle du Carré"""
-        return f.("[Square]{size}/{size}")
+        return f"[Square]{self.__size}/{self.__size}"
