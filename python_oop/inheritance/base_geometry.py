@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """ Module BaseGeometry"""
 
+
 class BaseGeometry:
     """Representation d'un base Geometrie"""
     def area(self):
