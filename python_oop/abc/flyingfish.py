@@ -32,5 +32,5 @@ flyingfish.fly()
 flyingfish.swim() 
 flyingfish.habitat()
 
-FlyingFish.__mro__
+print(FlyingFish.__mro__)
      
