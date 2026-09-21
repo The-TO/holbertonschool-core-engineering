@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Module for open a file"""
 
 def read_file(filename=""):
     with open(filename,"r" ,encoding="utf-8") as f:
