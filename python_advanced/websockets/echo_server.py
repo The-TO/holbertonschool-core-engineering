@@ -1,4 +1,4 @@
-#!/usr/bin python3
+#!/usr/bin/env python3
 """MOdule pour creer un un message avec websocket"""
 import asyncio
 import websockets
