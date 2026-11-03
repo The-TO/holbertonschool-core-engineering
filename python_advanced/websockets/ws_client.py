@@ -12,7 +12,7 @@ async def connect_and_send(uri: str, text: str) -> str:
 
 
 async def main():
-    result = await connect_and_send("ws://127.0.0.1:8765", "")
+    result = await connect_and_send("ws://127.0.0.1:8765", " nikomok ")
     print(result, end="")
 
 if __name__ == "__main__":
