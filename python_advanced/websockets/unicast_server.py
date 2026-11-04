@@ -13,7 +13,7 @@ async def connection_handler(websocket):
     connected_clients.add(websocket)
     try:
         async for message in websocket:
-                await websocket.send(f"U:{message}")
+            await websocket.send(f"U:{message}")
     except ConnectionClosed:
         pass
     finally:
